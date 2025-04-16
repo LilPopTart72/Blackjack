@@ -17,7 +17,7 @@
    <string notr="true">background-color: &quot;green&quot;;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="shuffleButton">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -38,7 +38,7 @@
      <string>Shuffle Start / Over</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="dealButton">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -59,7 +59,7 @@
      <string>Deal Cards</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="dealerLabel">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -78,7 +78,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="playerLabel">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -97,7 +97,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="playerHeaderLabel">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -130,7 +130,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="dealerHeaderLabel">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -163,7 +163,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="dealerHandLabel">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -293,7 +293,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="playerHandLabel">
     <property name="geometry">
      <rect>
       <x>490</x>
@@ -327,6 +327,147 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cWar_1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>170</y>
+      <width>75</width>
+      <height>109</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Images/Cards/6_of_spades.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cWar_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>190</y>
+      <width>75</width>
+      <height>109</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Images/Cards/6_of_spades.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cWar_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>210</y>
+      <width>75</width>
+      <height>109</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Images/Cards/6_of_spades.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cWar_4">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>170</y>
+      <width>75</width>
+      <height>109</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Images/Cards/6_of_spades.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cWar_5">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>190</y>
+      <width>75</width>
+      <height>109</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Images/Cards/6_of_spades.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cWar_6">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>210</y>
+      <width>75</width>
+      <height>109</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Images/Cards/6_of_spades.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
